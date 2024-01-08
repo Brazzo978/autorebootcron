@@ -1,5 +1,5 @@
 # autorebootcron
-parser script for setting up / deleting cron rules for autoreboot 
+parser script for setting up / deleting cron rules for autoreboot , for now only debian and ubuntu are supported. 
 
 
 
@@ -34,3 +34,14 @@ Also monthly the days are limited to 28 to avoid problems with month with differ
 
 ![image](https://github.com/Brazzo978/autorebootcron/assets/55558507/21097166-b559-4659-88cc-3de0b2271696)
 
+
+To download and run first time 
+```bash
+wget https://raw.githubusercontent.com/Brazzo978/autorebootcron/main/reboot.sh && bash reboot.sh
+```
+
+Once downloaded you can run 
+
+```bash
+bash reboot.sh
+```
